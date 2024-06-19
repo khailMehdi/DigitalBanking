@@ -3,23 +3,16 @@ package org.example.degitalbanking;
 import org.example.degitalbanking.Exception.CustomerNotFoundException;
 import org.example.degitalbanking.Service.BankAccountService;
 import org.example.degitalbanking.dto.*;
-import org.example.degitalbanking.entity.AccountOperation;
-import org.example.degitalbanking.entity.CurrentAccount;
-import org.example.degitalbanking.entity.Customer;
-import org.example.degitalbanking.entity.SavingAcount;
-import org.example.degitalbanking.enums.AccountStatus;
-import org.example.degitalbanking.enums.OperationType;
-import org.example.degitalbanking.repository.AccountOperationRepository;
-import org.example.degitalbanking.repository.BankAccountRepository;
-import org.example.degitalbanking.repository.CustomerRepository;
+import org.example.degitalbanking.entity.*;
+import org.example.degitalbanking.enums.*;
+import org.example.degitalbanking.repository.*;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import java.util.Date;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 import java.util.stream.Stream;
 
 @SpringBootApplication
