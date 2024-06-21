@@ -1,4 +1,5 @@
 <h1>Projet Final: Spring Angular - Digital Banking</h1>
+<h2>parties backend</h2>
 <p>1-les entités JPA : Customer, BankAccount, Saving Account, CurrentAccount, AccountOperation</p>
 <img src="Capture/Capture.PNG" >
 <p> RestController avec postMan </p>
