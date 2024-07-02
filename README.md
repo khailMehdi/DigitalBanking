@@ -19,3 +19,5 @@
 <img src="Capture/Screenshot_2.png" >
 <p1>save dans la DB</p1>
 <img src="Capture/Screenshot_4.png" >
+<p1>suprimer un client</p1>
+<img src="Capture/Screenshot_5.png" >
