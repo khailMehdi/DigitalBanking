@@ -11,4 +11,11 @@
 <p1>bank-account-rest-api</p1>
 <img src="Capture/Capture4.PNG" >
 <h2>parties Web</h2>
-
+<p1>afficher la listes des clients</p1>
+<img src="Capture/Screenshot_1.png" >
+<p1>err</p1>
+<img src="Capture/Screenshot_3.png" >
+<p1>ajouter un client</p1>
+<img src="Capture/Screenshot_2.png" >
+<p1>save dans la DB</p1>
+<img src="Capture/Screenshot_4.png" >
