@@ -20,4 +20,8 @@ export class CustomerService {
     return this.http.post<Customer>("http://localhost:8589/customers",customer)
   }
 
+  public delateCustomers(id :Number ) {
+    return this.http.delete<Customer>("http://localhost:8589/customers/"+id);
+  }
+
 }

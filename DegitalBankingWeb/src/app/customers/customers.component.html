@@ -26,16 +26,16 @@
             <td>{{customer.id}}</td>
             <td>{{customer.name}}</td>
             <td>{{customer.email}}</td>
-<!--            <td>-->
-<!--              <button (click)="handleDeleteCustomer(c)" class="btn btn-danger">-->
-<!--                <i class="bi bi-trash"></i>-->
-<!--              </button>-->
-<!--            </td>-->
-<!--            <td>-->
-<!--              <button (click)="handleCustomerAccounts(c)" class="btn btn-success">-->
-<!--                Accounts-->
-<!--              </button>-->
-<!--            </td>-->
+            <td>
+              <button (click)="handleDeleteCustomer(customer)" class="btn btn-danger">
+                <i class="bi bi-trash"></i>
+              </button>
+            </td>
+            <td>
+              <button (click)="handleCustomerAccounts(customer)" class="btn btn-success">
+                Accounts
+              </button>
+            </td>
           </tr>
           </tbody>
         </table>
