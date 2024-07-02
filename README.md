@@ -21,3 +21,5 @@
 <img src="Capture/Screenshot_4.png" >
 <p1>suprimer un client</p1>
 <img src="Capture/Screenshot_5.png" >
+<p1>la liste des operations </p1>
+<img src="Capture/Screenshot_6.png" >
