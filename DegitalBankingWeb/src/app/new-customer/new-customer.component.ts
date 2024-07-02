@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup} from "@angular/forms";
+import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {Customer} from "../model/customer.module";
 import {CustomerService} from "../services/customer.service";
 
@@ -15,8 +15,8 @@ constructor(private fb :FormBuilder ,private customerService:CustomerService) {
 ngOnInit() {
   this.newCustomerFormGroup=this.fb.group(
     {
-      name :this.fb.control(null),
-      email :this.fb.control(null)
+      name :this.fb.control(null, [Validators.required,Validators.minLength(4)]),
+      email :this.fb.control(null , [Validators.required,Validators.email])
     }
   );
 }
