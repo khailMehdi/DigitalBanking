@@ -15,3 +15,7 @@
 <img src="Capture/Screenshot_1.png" >
 <p1>err</p1>
 <img src="Capture/Screenshot_3.png" >
+<p1>ajouter un client</p1>
+<img src="Capture/Screenshot_2.png" >
+<p1>save dans la DB</p1>
+<img src="Capture/Screenshot_4.png" >
